@@ -1,0 +1,6 @@
+SCENARIO: SampleTest
+META-DATA: {"description":"Sample Test Scenario","groups":["SMOKE"]}
+	Given get '/'
+    When I go to my bag
+    Then user successfully able to view my bag
+END
